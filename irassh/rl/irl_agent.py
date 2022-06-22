@@ -1,11 +1,11 @@
 # IRL algorith developed for the toy car obstacle avoidance problem for testing.
 import numpy as np
 import logging
-from nn import neural_net  # construct the nn and send to playing
+from .nn import neural_net  # construct the nn and send to playing
 from cvxopt import matrix
 from cvxopt import solvers  # convex optimization library
 import pickle
-from learning import q_learner, get_cmd2reward
+from .learning import q_learner, get_cmd2reward
 
 
 NUM_STATES = 8
