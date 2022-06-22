@@ -10,7 +10,7 @@ from __future__ import division, absolute_import
 import struct
 
 from twisted.python import log
-from twisted.python.compat import _bytesChr as chr
+from twisted.python.compat import *
 from twisted.internet import defer
 
 from twisted.conch.interfaces import IConchUser
