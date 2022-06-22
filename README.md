@@ -15,12 +15,15 @@ For Python dependencies, see requirements.txt
 
 ### Setup mysql database
 * Setup mysql server and create one account
+* `sudo apt-get update`
+* `sudo apt-get install mysql-server`
+* `sudo systemctl start mysql.service`
 * Create database `irassh`
 * Run all sql files in folder doc/sql
 * Change mysql info in irassh.cfg.dist, line 416
 
 ### Setup python virtual env
-* sudo apt-get install libmysqlclient-dev python-tk python-dev python-virtualenv
+* `sudo apt-get install libmysqlclient-dev python-tk python-dev python-virtualenv`
 * Create virtual env: `virtualenv irassh-env` if not installed yet
 * Init this env: `source irassh-env/bin/activate`
 * Install python requirements: `pip install -r requirements.txt`
