@@ -37,6 +37,7 @@ For Python dependencies, see requirements.txt
 * `bin/irassh start` - start the server
 * `bin/irassh stop` - stop the server
 * `bin/irassh force-stop` - force stop the server
+* `bin/irassh restart` - restart the server
 * `bin/irassh status` - check status of the server
 * Start client: `ssh root@localhost -p 2222`, input any pwd
 * Run playlog: `bin/playlog log/tty/[file_name]`
