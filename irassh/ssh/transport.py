@@ -18,7 +18,7 @@ from twisted.conch.ssh import transport
 from twisted.python import log, randbytes
 from twisted.conch.ssh.common import getNS
 from twisted.protocols.policies import TimeoutMixin
-from twisted.python.compat import _bytesChr as chr
+from twisted.python.compat import *
 
 
 
