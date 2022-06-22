@@ -28,14 +28,16 @@ For Python dependencies, see requirements.txt
 ### Test manual mode
 
 * Turn on manual = true in irassh/shell/honeypot.py
-* Turn on server: bin/irassh start
-* Turn on manual console: python bin/manual
-* Connect to server: ssh root@localhost -p 2222
+* Turn on server: `bin/irassh start`
+* Turn on manual console: `python bin/manual`
+* Connect to server: `ssh root@localhost -p 2222`
 
 ## How to run
 * Create 2 folders: log and log/tty
 * `bin/irassh start` - start the server
 * `bin/irassh stop` - stop the server
+* `bin/irassh force-stop` - force stop the server
+* `bin/irassh status` - check status of the server
 * Start client: `ssh root@localhost -p 2222`, input any pwd
 * Run playlog: `bin/playlog log/tty/[file_name]`
 
