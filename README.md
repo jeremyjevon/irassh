@@ -30,7 +30,7 @@ For Python dependencies, see requirements.txt
 
 ### Test manual mode
 
-* Turn on manual = true in irassh/shell/honeypot.py
+* Turn on `manual = True` in irassh/shell/honeypot.py, line 35
 * Turn on server: `bin/irassh start`
 * Turn on manual console: `python bin/manual`
 * Connect to server: `ssh root@localhost -p 2222`
