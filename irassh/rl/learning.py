@@ -1,12 +1,12 @@
 import numpy as np
 import random
 import csv
-from nn import neural_net, LossHistory
+from .nn import neural_net, LossHistory
 import os.path
 import timeit
 import os
 import pickle
-import plotting
+from .plotting import *
 import pandas as pd
 
 TUNING = False  # If False, just use arbitrary, pre-selected params.
