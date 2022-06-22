@@ -1,12 +1,12 @@
-# Welcome to the irassh GitHub repository
+# IRASSH - SSH and Telnet Honeypot
 
-This is the official repository for the irassh SSH and Telnet Honeypot effort.
+This repository is forked from https://github.com/adpauna/irassh
 
 ## Requirements
 
 Software required:
 
-* Python 2.7+, (Python 3 not yet supported due to Twisted dependencies)
+* Python 3.8
 * python-virtualenv
 
 For Python dependencies, see requirements.txt
@@ -57,7 +57,7 @@ For Python dependencies, see requirements.txt
 
 ### Test manual mode
 
-* Turn on manual = true in irassh/shell/honeypot.sh
+* Turn on manual = true in irassh/shell/honeypot.py
 * Turn on server: bin/irassh start
 * Turn on manual console: python bin/manual
 * Connect to server: ssh root@localhost -p 2222
