@@ -1,7 +1,6 @@
 # IRASSH - SSH and Telnet Honeypot
 
-This repository is forked from https://github.com/adpauna/irassh.  
-Updated to work on Python 3.8.
+This repository is forked from https://github.com/adpauna/irassh. Updated to work on Python 3.8.
 
 ## Requirements
 
