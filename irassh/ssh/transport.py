@@ -105,7 +105,7 @@ class HoneyPotSSHTransport(transport.SSHServerTransport, TimeoutMixin):
                 self._blockedByKeyExchange.append((messageType, payload))
                 return
 
-        payload = chr(messageType) + payload
+        payload = bytes((messageType,)) + payload
         if self.outgoingCompression:
             payload = (self.outgoingCompression.compress(payload)
                        + self.outgoingCompression.flush(2))
